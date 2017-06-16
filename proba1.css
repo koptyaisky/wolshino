@@ -1,0 +1,475 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(163,170,177);
+	width: 2060px;
+}
+
+.wrap {
+	background-color: white;
+	width: 1920px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrap_two {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Стили для верхней навигации*/
+nav, ul {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	padding-left: 222px;
+	padding-top: 50px;
+	margin-bottom: 131px;
+}
+nav li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+li a { 
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgb(163,170,177);
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 45px;
+ }
+
+/*Стили для логотипа*/
+header {
+	padding-left: 44px;
+	margin-bottom: 103px;
+}
+header p {
+ 	display: inline-block;
+ 	margin-right: 174px;
+ 	color: rgb(143,199,74);
+ 	font-size: 20px;
+ 	line-height: 82px;
+ 	vertical-align: top;
+ }
+ header figure {
+ 	display: inline-block;
+ 	margin-right: 190px;
+ }
+ header a {
+ 	display: inline-block;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(143,199,74);
+ 	border: 1px solid rgb(143,199,74);
+ 	border-radius: 30px;
+	padding: 12px 32px;
+ }
+ .table-cell {
+ 	display: table-cell;
+ 	vertical-align: middle;
+ }
+ /*Стили для "Лучший проект"*/
+ .bestproect {
+ 	width: 1920px;
+ 	margin-left: -377.5px;
+ 	margin-right: -378px;
+ 	margin-bottom: 137px;
+ 	height: 668px;
+ }
+ .bestproect .bestproect_left {
+ 	width: 304px;
+ 	height: 668px;
+ 	display: inline-block;
+ 	background-image: url(img/best_left.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: 0 70px;
+ 	margin-right: 194px;
+ }
+.bestproect .bestproect_center {
+	width: 950px;
+	height: 668px;
+	display: inline-block;
+	background-image: url(img/best_center.jpg);
+	background-repeat: no-repeat;
+ 	background-position: 0 0;
+ 	position: relative;
+ 	margin-right: 202px;
+}
+.bestproect .bestproect_center .bestText {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 370px;
+    left: 247px;
+}
+.bestproect .bestproect_center .bestLink a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: white;
+	border: 3px white solid;
+	border-radius: 30px;
+	position: absolute;
+	top: 445px;
+	left: 384px;
+	padding: 15px 2px 15px 4px;
+}
+
+.bestproect .bestLine_Left a {
+	display: block;
+	width: 40px;
+	height: 15px;
+	background-image: url(img/best_line.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	position: absolute;
+	top: 654px;
+	left: 402px;
+}
+.bestproect .bestLine_Right a {
+	display: block;
+	width: 40px;
+	height: 15px;
+	background-image: url(img/best_line.jpg);
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	position: absolute;
+	top: 654px;
+	left: 492px;
+}
+.bestproect .bestproect_rigth {
+	width: 262px;
+	height: 668px;
+	display: inline-block;
+	background-image: url(img/best_right.jpg);
+	background-repeat: no-repeat;
+ 	background-position: 0 0;
+}
+/*Стили для "4 типов домов"*/
+.fourtypehouse {
+	width: 1165px;
+	margin-bottom: 277px;
+}
+.fourtypehouse figure {
+	display: inline-block;
+}
+.fourtypehouse .typehouse {
+	padding-left: 57px;
+	margin-bottom: 26px;
+}
+.fourtypehouse .typehouse p {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 42px;
+	text-transform: uppercase;
+	margin-right: 49px;
+}
+.fourtypehouse .typehouse img {
+	margin-right: 34px;
+	margin-bottom: 0px !important;
+}
+.fourtypehouse .aspen {
+	padding-left: 5px;
+	margin-right: 120px;
+	margin-top: 46px;
+}
+.fourtypehouse img {
+	margin-bottom: 40px;
+}
+.fourtypehouse figcaption {
+	color: rgb(163,170,177);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding-left: 15px;
+}
+
+.fourtypehouse a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 27px;
+	color: black;
+	padding-left: 37px;
+	margin-bottom: 20px;
+}
+.fourtypehouse .haven {
+	margin-top: 44px;
+	margin-right: 121px;
+}
+
+.fourtypehouse .villa {
+	margin-top: 47px;
+	margin-right: 100px;
+}
+/*Стили для "О нас"*/
+.onas_wrap {
+	width: 1920px;
+	height: 490px;
+	margin-left: -377.5px;
+	margin-right: -377.5px;
+	background-image: url(img/onas.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-top: 85px;
+}
+.onas_wrap .onas {
+	width: 695px;
+	height: 332px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid white;
+	padding-left: 450px;
+	padding-top: 63px;
+}
+.onas_wrap .onas p {
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	padding-left: 60px;
+	margin-bottom: 200px;
+}
+.onas_wrap .onas a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 30px;
+	padding: 20px 34px 17px 46px;
+}
+/*Стили для "Новости"*/
+.news_wrap {
+	width: 1920px;
+	height: 577px;
+	margin-left: -377.5px;
+	margin-right: -377.5px;
+	background-color: rgb(233,237,240);
+	margin-bottom: 112px;
+}
+.news_wrap .news {
+	width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 109px;
+}
+.news_wrap .news .news_text {
+	padding-left: 60px;
+	margin-bottom: 67px;
+}
+.news_wrap .news .news_text img:first-child {
+	margin-right: 127px;
+}
+.news_wrap .news .news_text p {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	margin-right: 134px;
+}
+.news_left, .news_center, .news_right {
+	display: inline-block;
+	padding-top: 11px; 
+	padding-left: 20px;
+}
+.news_wrap .news .news_left {
+	width: 325px;
+	height: 243px;
+	background-image: url(img/18JuneLeft.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-right: 60px;
+}
+.news_wrap .news .news_left .news_left_small a {
+	display: inline-block;
+	width: 61px;
+	height: 67px;
+	background-color: white;
+	text-decoration: none;
+	color: rgb(163,170,177);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 10px;
+	text-align: center;
+}
+.news_wrap .news .news_center {
+	width: 325px;
+	height: 243px;
+	background-image: url(img/18JuneCenter.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-right: 60px; /*Изначально заданы как в фш, пришлось уменьшать, так как не влезала третья картинка!!!!*/
+}
+.news_wrap .news .news_center .news_center_small a {
+	display: inline-block;
+	width: 61px;
+	height: 67px;
+	background-color: white;
+	text-decoration: none;
+	color: rgb(163,170,177);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 10px;
+	text-align: center;
+}
+.news_wrap .news .news_right {
+	width: 325px;
+	height: 243px;
+	background-image: url(img/18JuneRight.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.news_wrap .news .news_right .news_right_small a {
+	display: inline-block;
+	width: 61px;
+	height: 67px;
+	background-color: white;
+	text-decoration: none;
+	color: rgb(163,170,177);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	padding-top: 10px;
+	text-align: center;
+}
+/*Стили для "Галерея"*/
+.galery_wrap {
+	width: 1165px;
+	height: 695px;
+}
+.galery_wrap .galery_text {
+	padding-left: 60px;
+	margin-bottom: 74px;
+}
+.galery_wrap .galery_text img:first-child {
+	margin-right: 127px;
+}
+.galery_wrap .galery_text p {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	margin-right: 142px;
+}
+.galery_wrap .galery {
+	width: 1173px;
+	margin-right: -8px;
+	;
+}
+
+.galery_wrap .galery .galery_left {
+	width: 585px;
+	height: 580px;
+	background-image: url(img/GaleryLeft.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	float: left;
+}
+.galery_wrap .galery p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: white;
+	display: inline-block;
+	padding-top: 47px;
+	margin-bottom: 150px;
+}
+
+.galery_wrap .galery p:first-child {
+	padding-left: 54px;
+	font-size: 37px;
+}
+
+.galery_wrap .galery .galery_left a {
+	display: block;
+	width: 128px;
+	height: 128px;
+	background-image: url(img/Ellips.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin-left: 236px;
+}
+
+.galery_wrap .galery .galery_right_top {
+	width: 579px;
+	height: 285px;
+	background-image: url(img/GaleryRightTop.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	float: right;
+	margin-bottom: 10px;
+}
+.galery_wrap .galery .galery_right_buttom {
+	width: 579px;
+	height: 285px;
+	background-image: url(img/GaleryRightBottom.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	float: right;
+}
+footer {
+	margin-top: 92px;
+	clear: both;
+	width: 1920px;
+	height: 164px;
+	margin-left: -377.5px;
+	margin-right: -377.5px;
+	background-color: rgb(233,237,240);
+}
+footer .endpage {
+	width: 1165px;
+	height: 164px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.endpage_social {
+	float: left;
+	padding-top: 64px;
+	padding-left: 104px;
+}
+.endpage_social a.social {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background-color: rgb(233,237,240); 
+	background-image: url(img/social1.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+}
+.endpage_social a.inst {
+	background-position: 0 0;
+}
+.endpage_social a.vk {
+	background-position: -57px 0;
+}
+.endpage_social a.tw {
+	background-position: -114px 0;
+} 
+.endpage_social a.fb {
+	background-position: -172px 0;
+}   
+.endpage_text {
+	float: right;
+	padding-top: 80px;
+}
+.endpage_text p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgb(163,170,177);
+}
