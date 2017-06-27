@@ -43,9 +43,6 @@ li a {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-right: 45px;
  }
- ul li:last-child a {
- 	margin-right: 0;
- }
 
 /*Стили для логотипа*/
 .logo {
@@ -84,6 +81,7 @@ li a {
  	border: 1px solid rgb(143,199,74);
  	border-radius: 30px;
  	padding: 12px 32px;
+ 	margin-top: 6px;
 }
 
 .logo_bottom p {
@@ -94,97 +92,82 @@ li a {
 }
 
  /*Стили для "Лучший проект"*/
- .bestproect {
- 	width: 1920px;
- 	margin-left: -377.5px;
- 	margin-right: -378px;
- 	margin-bottom: 137px;
- 	height: 668px;
- }
- .bestproect .bestproect_left {
- 	width: 304px;
- 	height: 668px;
- 	display: inline-block;
- 	background-image: url(img/best_left.jpg);
- 	background-repeat: no-repeat;
- 	background-position: 0 70px;
- }
+.bestproect {
+	width: 1920px;
+	height: 673px;
+	margin-right: -377.5px;
+	margin-left: -377.5px;
+	text-align: center;
+	margin-bottom: 137px;
+}
+.bestproect .bestproect_left {
+	display: inline-block;
+	float: left;
+	background-image: url(img/house-left.png);
+	background-repeat: no-repeat;
+	background-position: -675px 0px;
+	width: 304px;
+	height: 576px;
+}
 .bestproect .bestproect_center {
-	width: 950px;
-	height: 668px;
 	display: inline-block;
 	background-image: url(img/best_center.jpg);
 	background-repeat: no-repeat;
- 	background-position: 0 0;
- 	position: relative;
- 	margin-left: 194px;
- 	margin-right: 202px;
- 	
+	background-position: 0 0;
+	width: 953px;
+	height: 270px;
+	padding-top: 361px;
+}
+.bestproect .bestproect_rigth {
+	display: inline-block;
+	float: right;
+	background-image: url(img/house-left.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 262px;
+	height: 576px;
 }
 .bestproect .bestproect_center .bestText {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     text-transform: uppercase;
-    position: absolute;
-    top: 370px;
-    left: 247px;
+    margin-bottom: 35px;
 }
-.bestproect .bestproect_center .bestLink a {
-	display: block;
+.bestproect .bestproect_center .bestLink {
+	display: inline-block;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 38px;
+	font-size: 27px;
 	color: white;
 	border: 3px white solid;
 	border-radius: 30px;
-	position: absolute;
-	top: 445px;
-	left: 384px;
-	padding: 15px 2px 15px 4px;
+	padding: 10px 2px 10px 4px;
 }
-
-.bestproect .bestLine_Left a {
-	display: block;
-	width: 40px;
-	height: 15px;
-	background-image: url(img/best_line.jpg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	position: absolute;
-	top: 654px;
-	left: 402px;
-}
-.bestproect .bestLine_Right a {
-	display: block;
-	width: 40px;
-	height: 15px;
-	background-image: url(img/best_line.jpg);
-	background-repeat: no-repeat;
-	background-position: 100% 0;
-	position: absolute;
-	top: 654px;
-	left: 492px;
-}
-.bestproect .bestproect_rigth {
-	width: 262px;
-	height: 668px;
+.bestproect .bestLine_Left {
 	display: inline-block;
-	background-image: url(img/best_right.jpg);
-	background-repeat: no-repeat;
- 	background-position: 0 0;
+	width: 40px;
+	height: 15px;
+	background: url(img/best_line.jpg) no-repeat 0 0;
+	margin-right: 49px;
+}
+.bestproect .bestLine_Right {
+	display: inline-block;
+	width: 40px;
+	height: 15px;
+	background: url(img/best_line.jpg) no-repeat -89px 0;
 }
 /*Стили для "4 типов домов"*/
 .fourtypehouse {
 	width: 1165px;
 	margin-bottom: 277px;
+	text-align: center;
 }
 .fourtypehouse figure {
 	display: inline-block;
 }
 .fourtypehouse .typehouse {
-	padding-left: 57px;
 	margin-bottom: 26px;
 }
 .fourtypehouse .typehouse p {
@@ -211,9 +194,7 @@ li a {
 	color: rgb(163,170,177);
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	padding-left: 15px;
 }
-
 .fourtypehouse a {
 	display: block;
 	text-decoration: none;
@@ -221,7 +202,6 @@ li a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 27px;
 	color: black;
-	padding-left: 37px;
 	margin-bottom: 20px;
 }
 .fourtypehouse .haven {
@@ -288,8 +268,8 @@ li a {
 	padding-top: 109px;
 }
 .news_wrap .news .news_text {
-	padding-left: 60px;
 	margin-bottom: 67px;
+	text-align: center;
 }
 .news_wrap .news .news_text img:first-child {
 	margin-right: 127px;
@@ -301,11 +281,43 @@ li a {
 	font-size: 30px;
 	margin-right: 134px;
 }
-.news_left, .news_center, .news_right {
+.news_foto {
 	display: inline-block;
-	padding-top: 11px; 
-	padding-left: 20px;
+	}
+.news_foto_link {
+	display: inline-block;
+	width: 345px;
+	height: 254px;
+	text-decoration: none;
+	color: rgb(163,170,177);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
 }
+.news_foto_left{
+	background: url(img/18JuneLeft.jpg) no-repeat 0 0;
+}
+.news_foto_center {
+	background: url(img/18JuneCenter.jpg);
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.news_foto_right {
+	background: url(img/18JuneRight.jpg) no-repeat 0 0;
+}
+.news .news_foto_text {
+	display: inline-block;
+	width: 61px;
+	height: 67px;
+	background: white;
+	margin-left: 18px;
+	margin-top: 12px;
+	text-align: center;
+	padding-top: 10px;
+}
+.news .news_foto_text p {
+	font-size: 25px;
+}
+/*
 .news_wrap .news .news_left {
 	width: 325px;
 	height: 243px;
@@ -332,7 +344,7 @@ li a {
 	background-image: url(img/18JuneCenter.jpg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	margin-right: 60px; /*Изначально заданы как в фш, пришлось уменьшать, так как не влезала третья картинка!!!!*/
+	margin-right: 60px; 
 }
 .news_wrap .news .news_center .news_center_small a {
 	display: inline-block;
@@ -364,7 +376,7 @@ li a {
 	font-size: 17px;
 	padding-top: 10px;
 	text-align: center;
-}
+}*/
 /*Стили для "Галерея"*/
 .galery_wrap {
 	width: 1165px;
